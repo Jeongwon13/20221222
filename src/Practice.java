@@ -14,13 +14,13 @@ class Tank extends Unit {
 	void move(int x, int y) {
 		System.out.println("Tank[x=" + x + ", y=" + y + "]");
 	}
-	void stimPack() {}
+	
 }
 class Dropship extends Unit {
 	void move(int x, int y) {
 		System.out.println("Dropship[x=" + x + ", y=" + y + "]");
 	}
-	void stimPack() {}
+
 }
 
 
